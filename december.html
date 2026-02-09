@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIB Monthly Digest — December 2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">DU</div>
+                <div class="logo-text">Dusadh <span>UPSC</span></div>
+            </a>
+            <div class="header-controls">
+                <button class="expand-all-btn" id="expandAllBtn" onclick="toggleAll()">Expand All</button>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme"></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-badge">📋 Press Information Bureau</div>
+        <h1>December <span>2025</span></h1>
+        <p>Comprehensive extraction of news &amp; current affairs from the Monthly PIB compilation.</p>
+    </section>
+
+    <main class="main">
+        <div class="search-wrap">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" class="search-input" id="searchInput" placeholder="Search topics…" oninput="searchTopics()" />
+        </div>
+
+        <div id="topicList">
+
+            <!-- 1 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">01</div><div class="topic-title-group"><div class="topic-title">🏦 ADB Loan for Development Projects</div><div class="topic-subtitle">$800M loans + $1M TA grant for Maharashtra, MP, Gujarat, Assam</div></div><div class="topic-tag">Economy</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner">
+                <ul>
+                    <li><strong>Agreement:</strong> GoI and ADB signed loans worth $800 million and a $1 million Technical Assistance (TA) grant.</li>
+                </ul>
+                <div class="subtopic"><div class="subtopic-header" onclick="toggleSubtopic(this)"><div class="subtopic-dot"></div>Specific Projects<span class="subtopic-chevron">▾</span></div><div class="subtopic-content"><div class="subtopic-content-inner"><ul>
+                    <li><strong>Maharashtra:</strong> Power Distribution Enhancement for Agricultural Solarization.</li>
+                    <li><strong>Madhya Pradesh:</strong> Indore Metro Rail Project.</li>
+                    <li><strong>Gujarat:</strong> Skills Development Programme.</li>
+                    <li><strong>Assam:</strong> SWIFT Project (TA Grant).</li>
+                </ul></div></div></div>
+                <ul style="margin-top:12px">
+                    <li><strong>About ADB:</strong> HQ in Manila, Philippines. 69 members (Israel is newest). Japan is the largest shareholder.</li>
+                </ul>
+            </div></div></div>
+
+            <!-- 2 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">02</div><div class="topic-title-group"><div class="topic-title">🚢 IMO Council Re-election</div><div class="topic-subtitle">India re-elected with highest tally — 154 of 169 votes</div></div><div class="topic-tag">Global</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Achievement:</strong> India re-elected to IMO Council in Category B with highest tally (154 of 169 votes).</li>
+                <li><strong>Category B:</strong> Represents nations with largest interest in international seaborne trade.</li>
+                <li><strong>IMO Facts:</strong> HQ in London. Responsible for SOLAS (Safety) and MARPOL (Pollution) conventions.</li>
+            </ul></div></div></div>
+
+            <!-- 3 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">03</div><div class="topic-title-group"><div class="topic-title">⚖️ 30th NHRC Annual Debate</div><div class="topic-subtitle">CISF wins overall trophy — human rights &amp; national security</div></div><div class="topic-tag">Governance</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Winner:</strong> CISF won the overall trophy as Best Team.</li>
+                <li><strong>Topic:</strong> "Human rights can be observed by paramilitary forces without compromising national security concerns."</li>
+                <li><strong>Organizer:</strong> NHRC with SSB.</li>
+            </ul></div></div></div>
+
+            <!-- 4 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">04</div><div class="topic-title-group"><div class="topic-title">🤝 PM VIKAS Scheme</div><div class="topic-subtitle">Pradhan Mantri Virasat Ka Samvardhan — minority empowerment</div></div><div class="topic-tag">Social</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Full Form:</strong> Pradhan Mantri Virasat Ka Samvardhan.</li>
+                <li><strong>Target:</strong> Socio-economic empowerment of 6 notified minorities (Muslims, Christians, Sikhs, Buddhists, Parsis, Jains).</li>
+                <li><strong>Key Mandates:</strong> 3% reservation for PwDs; 75% placement target for trainees (50% in organized sector).</li>
+            </ul></div></div></div>
+
+            <!-- 5 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">05</div><div class="topic-title-group"><div class="topic-title">🧊 NCPOR Silver Jubilee</div><div class="topic-subtitle">25 years of polar &amp; ocean research — Maitri, Bharati, Himadri</div></div><div class="topic-tag">Science</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> National Centre for Polar and Ocean Research (Goa) celebrated 25th anniversary.</li>
+                <li><strong>Stations:</strong> Maitri &amp; Bharati (Antarctica), Himadri (Arctic), Himansh (Himalayas).</li>
+                <li><strong>Parent Body:</strong> Ministry of Earth Sciences (MoES).</li>
+            </ul></div></div></div>
+
+            <!-- 6 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">06</div><div class="topic-title-group"><div class="topic-title">⚓ Operation Sagar Bandhu</div><div class="topic-subtitle">HADR in Sri Lanka — INS Vikrant &amp; INS Udaygiri deployed</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Action:</strong> Indian Navy conducted HADR in Sri Lanka following Cyclone Ditwah.</li>
+                <li><strong>Assets Deployed:</strong> INS Vikrant and INS Udaygiri.</li>
+            </ul></div></div></div>
+
+            <!-- 7 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">07</div><div class="topic-title-group"><div class="topic-title">🤝 Exercise EKUVERIN</div><div class="topic-subtitle">14th India-Maldives Joint Military Exercise — "Friends"</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Type:</strong> 14th Joint Military Exercise between India and Maldives.</li>
+                <li><strong>Location:</strong> Thiruvananthapuram, Kerala.</li>
+                <li><strong>Meaning:</strong> "Ekuverin" means "Friends" in Dhivehi.</li>
+            </ul></div></div></div>
+
+            <!-- 8 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">08</div><div class="topic-title-group"><div class="topic-title">🤖 India-AI Impact Summit 2026</div><div class="topic-subtitle">First global AI summit in Global South — 7 Chakras framework</div></div><div class="topic-tag">Technology</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Schedule:</strong> Feb 16–20, 2026, New Delhi.</li>
+                <li><strong>Significance:</strong> First time hosted in the Global South.</li>
+                <li><strong>Theme:</strong> Focused on 7 'Chakras' including Human Capital, Safety, and Democratizing AI Resources.</li>
+            </ul></div></div></div>
+
+            <!-- 9 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">09</div><div class="topic-title-group"><div class="topic-title">🏛️ 20th UNESCO IGC</div><div class="topic-subtitle">Intangible Cultural Heritage committee at Red Fort, New Delhi</div></div><div class="topic-tag">Culture</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> 20th Session of UNESCO Intergovernmental Committee for Safeguarding Intangible Cultural Heritage.</li>
+                <li><strong>Venue:</strong> Red Fort, New Delhi.</li>
+                <li><strong>Goal:</strong> Examining nominations for the UNESCO ICH Lists.</li>
+            </ul></div></div></div>
+
+            <!-- 10 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">10</div><div class="topic-title-group"><div class="topic-title">📱 CHAMPIONS Portal</div><div class="topic-subtitle">MSME grievance redressal — integrated with PM Vishwakarma</div></div><div class="topic-tag">Digital</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Ministry:</strong> MSME.</li>
+                <li><strong>Purpose:</strong> Digital platform for speedy redressal of MSME grievances.</li>
+                <li><strong>Context:</strong> Integrated with PM Vishwakarma scheme support.</li>
+            </ul></div></div></div>
+
+            <!-- 11 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">11</div><div class="topic-title-group"><div class="topic-title">⚛️ Nuclear Energy Mission</div><div class="topic-subtitle">100 GW by 2047 — PHWRs, SMRs &amp; Net Zero by 2070</div></div><div class="topic-tag">Energy</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Target:</strong> 100 GW nuclear capacity by 2047.</li>
+                <li><strong>Strategy:</strong> Use of 700 MWe indigenous PHWRs and Small Modular Reactors (SMRs) to replace fossil fuel plants.</li>
+                <li><strong>Net Zero:</strong> Contributes to the 2070 Net Zero target.</li>
+            </ul></div></div></div>
+
+            <!-- 12 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">12</div><div class="topic-title-group"><div class="topic-title">🪖 Exercise Garuda Shakti</div><div class="topic-subtitle">10th India-Indonesia Joint Special Forces Exercise — HP</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Type:</strong> 10th Joint Special Forces Exercise between India and Indonesia.</li>
+                <li><strong>Location:</strong> Himachal Pradesh.</li>
+            </ul></div></div></div>
+
+            <!-- 13 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">13</div><div class="topic-title-group"><div class="topic-title">✈️ Exercise Garuda</div><div class="topic-subtitle">8th India-France Bilateral Air Exercise — Su-30MKI</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Type:</strong> 8th Bilateral Air Exercise between India and France.</li>
+                <li><strong>Conclusion:</strong> Concluded in France; IAF participated with Su-30MKI.</li>
+            </ul></div></div></div>
+
+            <!-- 14 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">14</div><div class="topic-title-group"><div class="topic-title">💡 Inno-Yoddha 2025</div><div class="topic-subtitle">Indian Army's annual innovation competition — Manekshaw Centre</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> Indian Army's annual Idea &amp; Innovation Competition.</li>
+                <li><strong>Venue:</strong> Manekshaw Centre, New Delhi.</li>
+                <li><strong>Aim:</strong> Promoting indigenous innovation within the force.</li>
+            </ul></div></div></div>
+
+            <!-- 15 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">15</div><div class="topic-title-group"><div class="topic-title">🐅 Exercise Harimau Shakti</div><div class="topic-subtitle">5th India-Malaysia Joint Military Exercise — Rajasthan</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Type:</strong> 5th Joint Military Exercise between India and Malaysia.</li>
+                <li><strong>Location:</strong> Rajasthan.</li>
+            </ul></div></div></div>
+
+            <!-- 16 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">16</div><div class="topic-title-group"><div class="topic-title">🦁 WCCB Action</div><div class="topic-subtitle">INTERPOL Red Notice arrest — wildlife crime enforcement</div></div><div class="topic-tag">Environment</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Incident:</strong> WCCB and MP Tiger Strike Force arrested Yangchen Lachungpa, wanted under INTERPOL Red Notice.</li>
+                <li><strong>WCCB:</strong> Statutory body under MoEFCC to combat organized wildlife crime.</li>
+            </ul></div></div></div>
+
+            <!-- 17 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">17</div><div class="topic-title-group"><div class="topic-title">⛵ Admiral's Cup 2025</div><div class="topic-subtitle">14th naval sailing championship — 35 countries at INA Ezhimala</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> 14th edition of the prestigious naval sailing championship.</li>
+                <li><strong>Host:</strong> Indian Naval Academy (INA), Ezhimala.</li>
+                <li><strong>Participants:</strong> 35 countries.</li>
+            </ul></div></div></div>
+
+            <!-- 18 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">18</div><div class="topic-title-group"><div class="topic-title">🕌 UMMED Portal</div><div class="topic-subtitle">Waqf property management — upload window closed Dec 6, 2025</div></div><div class="topic-tag">Governance</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Objective:</strong> Management of Waqf Properties in India.</li>
+                <li><strong>Status:</strong> Portal officially closed for uploads on Dec 6, 2025, completing the 6-month window.</li>
+            </ul></div></div></div>
+
+            <!-- 19 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">19</div><div class="topic-title-group"><div class="topic-title">🇦🇺 AIESC Meeting</div><div class="topic-subtitle">3rd Australia-India Education &amp; Skills Council — New Delhi</div></div><div class="topic-tag">Education</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> 3rd Australia-India Education and Skills Council meeting.</li>
+                <li><strong>Venue:</strong> New Delhi.</li>
+                <li><strong>Focus:</strong> Mutual recognition of qualifications and research cooperation.</li>
+            </ul></div></div></div>
+
+            <!-- 20 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">20</div><div class="topic-title-group"><div class="topic-title">🌿 2nd WHO Global Summit on Traditional Medicine</div><div class="topic-subtitle">Bharat Mandapam — "Restoring balance: science &amp; practice"</div></div><div class="topic-tag">Health</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Venue:</strong> Bharat Mandapam, New Delhi (Dec 2025).</li>
+                <li><strong>Theme:</strong> "Restoring balance: The science and practice of health and well-being".</li>
+            </ul></div></div></div>
+
+            <!-- 21 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">21</div><div class="topic-title-group"><div class="topic-title">💳 UPI Global Recognition</div><div class="topic-subtitle">IMF recognizes UPI as world's largest real-time payment system — 49%</div></div><div class="topic-tag">Economy</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Report:</strong> IMF recognized UPI as the world's largest real-time retail payment system.</li>
+                <li><strong>Market Share:</strong> Accounts for 49% of global real-time transactions.</li>
+            </ul></div></div></div>
+
+            <!-- 22 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">22</div><div class="topic-title-group"><div class="topic-title">💧 Mission PUNARUTTHAN</div><div class="topic-subtitle">Watershed development in Nagaland — "Water Security is National Security"</div></div><div class="topic-tag">Rural</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Launch:</strong> Launched in Nagaland (Kohima).</li>
+                <li><strong>Focus:</strong> Watershed development to revive springs and restore degraded lands.</li>
+                <li><strong>Slogan:</strong> "Water Security is National Security".</li>
+            </ul></div></div></div>
+
+            <!-- 23 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">23</div><div class="topic-title-group"><div class="topic-title">🌊 Blue Economy</div><div class="topic-subtitle">Dr. Jitendra Singh at IISF — deep-sea minerals &amp; biodiversity</div></div><div class="topic-tag">Economy</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Statement:</strong> Dr. Jitendra Singh at IISF termed Blue Economy as the "new engine of India's growth."</li>
+                <li><strong>Focus:</strong> Deep-sea minerals and biodiversity.</li>
+            </ul></div></div></div>
+
+            <!-- 24 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">24</div><div class="topic-title-group"><div class="topic-title">🌾 Cotton Production Crisis</div><div class="topic-subtitle">Pink Bollworm, Leaf Curl Virus — Mission for Cotton Productivity</div></div><div class="topic-tag">Agriculture</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Issue:</strong> Decline in cotton production/yield.</li>
+                <li><strong>Causes:</strong> Pink Bollworm infestation, Cotton Leaf Curl Virus, and climate change.</li>
+                <li><strong>Response:</strong> "Mission for Cotton Productivity" announced.</li>
+            </ul></div></div></div>
+
+            <!-- 25 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">25</div><div class="topic-title-group"><div class="topic-title">🪔 Deepavali — UNESCO ICH</div><div class="topic-subtitle">Inscribed on Representative List — "Tamso Ma Jyotirgamaya"</div></div><div class="topic-tag">Culture</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Achievement:</strong> Deepavali inscribed on UNESCO's Representative List of Intangible Cultural Heritage.</li>
+                <li><strong>Symbolism:</strong> "Tamso Ma Jyotirgamaya" (Darkness to Light).</li>
+            </ul></div></div></div>
+
+            <!-- 26 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">26</div><div class="topic-title-group"><div class="topic-title">🚂 Gati Shakti &amp; Amazon MoU</div><div class="topic-subtitle">Amazon Chair Professorship at GSV for logistics research</div></div><div class="topic-tag">Education</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Partnership:</strong> Gati Shakti Vishwavidyalaya (GSV) signed MoU with Amazon.</li>
+                <li><strong>Key Feature:</strong> Amazon Chair Professorship at GSV for warehousing/logistics research.</li>
+            </ul></div></div></div>
+
+            <!-- 27 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">27</div><div class="topic-title-group"><div class="topic-title">⚛️ Nuclear Power Status</div><div class="topic-subtitle">16 reactors (6380 MW) — KKNPP, Kovvada, Jaitapur projects</div></div><div class="topic-tag">Energy</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner">
+                <ul>
+                    <li><strong>Current:</strong> 16 reactors (6380 MW) under IAEA safeguards.</li>
+                </ul>
+                <div class="subtopic"><div class="subtopic-header" onclick="toggleSubtopic(this)"><div class="subtopic-dot"></div>Foreign Projects<span class="subtopic-chevron">▾</span></div><div class="subtopic-content"><div class="subtopic-content-inner"><ul>
+                    <li><strong>Russia:</strong> KKNPP Units 3-6 (Tamil Nadu).</li>
+                    <li><strong>USA:</strong> Kovvada (Andhra Pradesh) — discussions.</li>
+                    <li><strong>France:</strong> Jaitapur (Maharashtra) — discussions.</li>
+                </ul></div></div></div>
+            </div></div></div>
+
+            <!-- 28 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">28</div><div class="topic-title-group"><div class="topic-title">🍽️ FICCI Annapoorna 2025</div><div class="topic-subtitle">Food processing exhibition — PM Kisan Sampada &amp; PMFME</div></div><div class="topic-tag">Trade</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Sector:</strong> Food Processing.</li>
+                <li><strong>Venue:</strong> Mumbai.</li>
+                <li><strong>Focus:</strong> Promoting PM Kisan Sampada Yojana and PMFME schemes.</li>
+            </ul></div></div></div>
+
+            <!-- 29 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">29</div><div class="topic-title-group"><div class="topic-title">🗣️ Bharatiya Bhasha Utsav</div><div class="topic-subtitle">Adi Vaani — India's first AI tribal language translation app</div></div><div class="topic-tag">Technology</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> Celebrated on birth anniversary of Mahakavi Subramania Bharati.</li>
+                <li><strong>Tech Launch:</strong> "Adi Vaani" — India's first AI-powered tribal language translation app (Santali, Kui, Bhili, etc.).</li>
+            </ul></div></div></div>
+
+            <!-- 30 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">30</div><div class="topic-title-group"><div class="topic-title">🚤 Hydrogen Fuel Cell Vessel</div><div class="topic-subtitle">India's first indigenous hydrogen catamaran — Varanasi, Ganga</div></div><div class="topic-tag">Innovation</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Milestone:</strong> India's first indigenous hydrogen fuel cell passenger catamaran flagged off.</li>
+                <li><strong>Location:</strong> Varanasi (River Ganga).</li>
+            </ul></div></div></div>
+
+            <!-- 31 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">31</div><div class="topic-title-group"><div class="topic-title">📮 India Post &amp; BSE MoU</div><div class="topic-subtitle">Post offices as Mutual Fund distributors — rural financial inclusion</div></div><div class="topic-tag">Economy</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Agreement:</strong> Department of Posts to partner with BSE.</li>
+                <li><strong>Goal:</strong> Post offices to act as Mutual Fund distributors for rural financial inclusion.</li>
+            </ul></div></div></div>
+
+            <!-- 32 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">32</div><div class="topic-title-group"><div class="topic-title">💻 IT Schemes for Rural India</div><div class="topic-subtitle">PMGDISHA, BharatNet, FutureSkills PRIME</div></div><div class="topic-tag">Digital</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>PMGDISHA:</strong> Digital literacy for rural households.</li>
+                <li><strong>BharatNet:</strong> Connecting 2.5 lakh Gram Panchayats via optical fibre.</li>
+                <li><strong>FutureSkills PRIME:</strong> Re-skilling workforce for Industry 4.0.</li>
+            </ul></div></div></div>
+
+            <!-- 33 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">33</div><div class="topic-title-group"><div class="topic-title">🧵 PM-MITRA Parks</div><div class="topic-subtitle">7 Mega Textile Parks — Farm to Fibre to Factory to Fashion to Foreign</div></div><div class="topic-tag">Industry</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Scheme:</strong> 7 Mega Integrated Textile Regions and Apparel Parks.</li>
+                <li><strong>Locations:</strong> Karnataka, MP, Maharashtra, TN, Telangana, UP, Gujarat.</li>
+                <li><strong>Vision:</strong> 5F — Farm to Fibre to Factory to Fashion to Foreign.</li>
+            </ul></div></div></div>
+
+            <!-- 34 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">34</div><div class="topic-title-group"><div class="topic-title">🏭 CAQM &amp; GRAP Stage-IV</div><div class="topic-subtitle">Delhi-NCR air quality — BS-IV diesel ban, construction halt</div></div><div class="topic-tag">Environment</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Action:</strong> CAQM invoked GRAP Stage-IV in Delhi-NCR.</li>
+                <li><strong>Measures:</strong> Ban on BS-IV diesel trucks, ban on construction, hybrid mode for schools.</li>
+            </ul></div></div></div>
+
+            <!-- 35 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">35</div><div class="topic-title-group"><div class="topic-title">🛥️ National Waterway 37</div><div class="topic-subtitle">River Gandak — India-Nepal cargo transit route</div></div><div class="topic-tag">Infra</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>River:</strong> Gandak.</li>
+                <li><strong>Route:</strong> Critical for India-Nepal cargo transit.</li>
+                <li><strong>Infra:</strong> Jetties deployed at Mangalpur and Bettiah.</li>
+            </ul></div></div></div>
+
+            <!-- 36 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">36</div><div class="topic-title-group"><div class="topic-title">🇦🇺 Terror Attack — Bondi Beach</div><div class="topic-subtitle">PM Modi condemned the terrorist attack in Australia</div></div><div class="topic-tag">Global</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> PM Modi condemned the terrorist attack at Bondi Beach, Australia.</li>
+            </ul></div></div></div>
+
+            <!-- 37 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">37</div><div class="topic-title-group"><div class="topic-title">🏆 Squash World Cup Victory</div><div class="topic-subtitle">India's first-ever title — defeated Hong Kong 3-0</div></div><div class="topic-tag">Sports</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Historic Win:</strong> India won its first-ever Squash World Cup title.</li>
+                <li><strong>Final:</strong> Defeated Hong Kong 3-0.</li>
+                <li><strong>Key Players:</strong> Joshna Chinnappa, Abhay Singh, Anahat Singh.</li>
+            </ul></div></div></div>
+
+            <!-- 38 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">38</div><div class="topic-title-group"><div class="topic-title">🎖️ SPARSH (Defence Pension)</div><div class="topic-subtitle">31.69 lakh pensioners — grievance time reduced to 17 days</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Platform:</strong> System for Pension Administration – Raksha.</li>
+                <li><strong>Achievement:</strong> 31.69 lakh pensioners onboarded; grievance redressal time reduced to 17 days.</li>
+            </ul></div></div></div>
+
+            <!-- 39 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">39</div><div class="topic-title-group"><div class="topic-title">📋 Central Information Commission</div><div class="topic-subtitle">8 new Information Commissioners — Chief IC Raj Kumar Goyal</div></div><div class="topic-tag">Governance</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Appointments:</strong> 8 new Information Commissioners sworn in.</li>
+                <li><strong>Chief IC:</strong> Shri Raj Kumar Goyal administered the oath.</li>
+            </ul></div></div></div>
+
+            <!-- 40 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">40</div><div class="topic-title-group"><div class="topic-title">⚡ NECA (National Energy Conservation Awards)</div><div class="topic-subtitle">Energy conservation recognition — Bureau of Energy Efficiency</div></div><div class="topic-tag">Energy</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Note:</strong> National Energy Conservation Awards — associated with Bureau of Energy Efficiency (BEE) events recognizing energy efficiency achievements.</li>
+            </ul></div></div></div>
+
+            <!-- 41 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">41</div><div class="topic-title-group"><div class="topic-title">🤿 Exercise Ekatha 2025</div><div class="topic-subtitle">8th India-Maldives bilateral maritime exercise — Divers/Marcos</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Type:</strong> 8th edition, bilateral maritime exercise.</li>
+                <li><strong>Parties:</strong> India and Maldives (Divers/Marcos).</li>
+            </ul></div></div></div>
+
+            <!-- 42 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">42</div><div class="topic-title-group"><div class="topic-title">🎖️ Param Vir Dirgha</div><div class="topic-subtitle">Gallery at Rashtrapati Bhavan — 21 Param Vir Chakra awardees</div></div><div class="topic-tag">National</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Inauguration:</strong> President Murmu inaugurated the gallery at Rashtrapati Bhavan on Vijay Diwas (Dec 16).</li>
+                <li><strong>Content:</strong> Portraits of all 21 Param Vir Chakra awardees.</li>
+            </ul></div></div></div>
+
+            <!-- 43 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">43</div><div class="topic-title-group"><div class="topic-title">🗣️ BHASHINI</div><div class="topic-subtitle">AI language translation — preserving Pali, Prakrit, Avesta Pahlavi</div></div><div class="topic-tag">Technology</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Mission:</strong> National Language Technology Mission (AI-led translation).</li>
+                <li><strong>Focus:</strong> "Bhasha Daan" workshop to preserve endangered languages — Pali, Prakrit, Avesta Pahlavi.</li>
+            </ul></div></div></div>
+
+            <!-- 44 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">44</div><div class="topic-title-group"><div class="topic-title">🇪🇹 India-Ethiopia Relations</div><div class="topic-subtitle">First bilateral visit — Strategic Partnership &amp; Nishan of Ethiopia</div></div><div class="topic-tag">Bilateral</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Visit:</strong> PM Modi visited Addis Ababa (first bilateral visit).</li>
+                <li><strong>Upgrade:</strong> Relations elevated to Strategic Partnership.</li>
+                <li><strong>Award:</strong> PM conferred with the 'Great Honor Nishan of Ethiopia'.</li>
+            </ul></div></div></div>
+
+            <!-- 45 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">45</div><div class="topic-title-group"><div class="topic-title">🏛️ Adwa Victory Monument</div><div class="topic-subtitle">Ethiopian victory over Italy (1896) — PM tribute in Addis Ababa</div></div><div class="topic-tag">Bilateral</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> PM Modi paid tribute in Addis Ababa.</li>
+                <li><strong>History:</strong> Commemorates Ethiopian victory over colonial forces (Italy) in 1896.</li>
+            </ul></div></div></div>
+
+            <!-- 46 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">46</div><div class="topic-title-group"><div class="topic-title">🇦🇷 India-Argentina Agriculture</div><div class="topic-subtitle">ICAR-INTA Work Plan 2025-27 — digital agriculture &amp; biotech</div></div><div class="topic-tag">Agriculture</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Agreement:</strong> Signed ICAR-INTA Work Plan 2025-27.</li>
+                <li><strong>Focus:</strong> Sustainable agronomy, digital agriculture, and crop biotechnology.</li>
+            </ul></div></div></div>
+
+            <!-- 47 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">47</div><div class="topic-title-group"><div class="topic-title">🏅 C-DOT — IEEE Award</div><div class="topic-subtitle">First Indian org to win IEEE SA Corporate Award — WiFi, 5G</div></div><div class="topic-tag">Award</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Achievement:</strong> Won the IEEE SA Corporate Award 2025.</li>
+                <li><strong>Reason:</strong> Contributions to WiFi, 5G, and broadband standards. First Indian organization to win this.</li>
+            </ul></div></div></div>
+
+            <!-- 48 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">48</div><div class="topic-title-group"><div class="topic-title">🚁 INAS 335 'Ospreys'</div><div class="topic-subtitle">New Naval Air Squadron — MH 60R Romeo ASW helicopters</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Commissioning:</strong> New Naval Air Squadron at INS Hansa, Goa.</li>
+                <li><strong>Aircraft:</strong> Operates MH 60R (Romeo) Anti-Submarine Warfare helicopters.</li>
+            </ul></div></div></div>
+
+            <!-- 49 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">49</div><div class="topic-title-group"><div class="topic-title">🏜️ Exercise Desert Cyclone</div><div class="topic-subtitle">2nd India-UAE Joint Military Exercise — Abu Dhabi</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Type:</strong> 2nd Joint Military Exercise between India and UAE.</li>
+                <li><strong>Location:</strong> Abu Dhabi.</li>
+            </ul></div></div></div>
+
+            <!-- 50 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">50</div><div class="topic-title-group"><div class="topic-title">🦐 White Spot Disease</div><div class="topic-subtitle">Shrimp outbreak in AP — "Report Fish Disease" app launched</div></div><div class="topic-tag">Agriculture</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Context:</strong> Outbreak affecting shrimp farmers in Andhra Pradesh.</li>
+                <li><strong>Tech:</strong> "Report Fish Disease" app launched for surveillance.</li>
+            </ul></div></div></div>
+
+            <!-- 51 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">51</div><div class="topic-title-group"><div class="topic-title">🧬 Peptide Therapy (SA-XV)</div><div class="topic-subtitle">15-residue peptide for Fungal Keratitis — no Amphotericin B toxicity</div></div><div class="topic-tag">Science</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Innovation:</strong> Scientists developed a 15-residue peptide 'SA-XV'.</li>
+                <li><strong>Use:</strong> Treats Fungal Keratitis (eye infection) without toxicity of Amphotericin B.</li>
+            </ul></div></div></div>
+
+            <!-- 52 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">52</div><div class="topic-title-group"><div class="topic-title">⚛️ Thorium Reserves</div><div class="topic-subtitle">India's 3-stage nuclear program — Stage III breeds U-233</div></div><div class="topic-tag">Energy</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Strategy:</strong> India's 3-stage nuclear program focuses on utilizing vast Thorium reserves (Stage III) to breed U-233 for energy security.</li>
+            </ul></div></div></div>
+
+            <!-- 53 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">53</div><div class="topic-title-group"><div class="topic-title">🕊️ Obituary: Shri Ram Sutar</div><div class="topic-subtitle">Creator of the Statue of Unity — renowned sculptor passes away</div></div><div class="topic-tag">National</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Person:</strong> Renowned sculptor passed away.</li>
+                <li><strong>Famous Work:</strong> Statue of Unity (Kevadia).</li>
+            </ul></div></div></div>
+
+            <!-- 54 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">54</div><div class="topic-title-group"><div class="topic-title">🏦 One RRB One Logo</div><div class="topic-subtitle">Unified brand identity for all Regional Rural Banks</div></div><div class="topic-tag">Economy</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Initiative:</strong> Unified brand identity/logo unveiled for all Regional Rural Banks (RRBs) to signify strength and unity.</li>
+            </ul></div></div></div>
+
+            <!-- 55 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">55</div><div class="topic-title-group"><div class="topic-title">🇴🇲 India-Oman CEPA</div><div class="topic-subtitle">Comprehensive Economic Partnership — Gulf strategic engagement</div></div><div class="topic-tag">Trade</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Agreement:</strong> Comprehensive Economic Partnership Agreement signed.</li>
+                <li><strong>Significance:</strong> Boosts strategic engagement with the Gulf region.</li>
+            </ul></div></div></div>
+
+            <!-- 56 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">56</div><div class="topic-title-group"><div class="topic-title">🏅 Order of Oman</div><div class="topic-subtitle">Highest civilian honour conferred upon PM Modi by Sultan Haitham</div></div><div class="topic-tag">Bilateral</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Award:</strong> Highest civilian honour of Oman conferred upon PM Modi by Sultan Haitham bin Tarik.</li>
+            </ul></div></div></div>
+
+            <!-- 57 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">57</div><div class="topic-title-group"><div class="topic-title">🌾 Agri-Schemes (ATMA, STRY, SMAM)</div><div class="topic-subtitle">Extension reforms, skill training &amp; agricultural mechanization</div></div><div class="topic-tag">Agriculture</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>ATMA:</strong> Extension reforms in 734 districts.</li>
+                <li><strong>STRY:</strong> Skill training for rural youth.</li>
+                <li><strong>SMAM:</strong> Sub-Mission on Agricultural Mechanization — financial assistance for machinery.</li>
+            </ul></div></div></div>
+
+            <!-- 58 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">58</div><div class="topic-title-group"><div class="topic-title">🇮🇳 Kakori Train Action Tribute</div><div class="topic-subtitle">Balidaan Diwas — Bismil, Ashfaqulla Khan, Roshan Singh</div></div><div class="topic-tag">National</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> Amit Shah paid tribute to Ram Prasad Bismil, Ashfaqulla Khan, and Roshan Singh on Balidaan Diwas.</li>
+            </ul></div></div></div>
+
+            <!-- 59 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">59</div><div class="topic-title-group"><div class="topic-title">🚀 TIDE 2.0</div><div class="topic-subtitle">1700+ startups supported via 51 incubators</div></div><div class="topic-tag">Innovation</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Scheme:</strong> Technology Incubation and Development of Entrepreneurs.</li>
+                <li><strong>Impact:</strong> Supported 1700+ startups via 51 incubators.</li>
+            </ul></div></div></div>
+
+            <!-- 60 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">60</div><div class="topic-title-group"><div class="topic-title">🏛️ National Maritime Heritage Complex</div><div class="topic-subtitle">India-Netherlands MoU — Lothal, ancient Harappan port city</div></div><div class="topic-tag">Culture</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Collaboration:</strong> MoU signed between India and the Netherlands.</li>
+                <li><strong>Location:</strong> Lothal, Gujarat (ancient Harappan port city).</li>
+            </ul></div></div></div>
+
+            <!-- 61 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">61</div><div class="topic-title-group"><div class="topic-title">🏪 PM SVANidhi Extended</div><div class="topic-subtitle">Lending extended to March 2030 — 1.15 crore street vendors</div></div><div class="topic-tag">Social</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Update:</strong> Lending period extended to March 31, 2030.</li>
+                <li><strong>Goal:</strong> Benefit 1.15 crore street vendors with collateral-free loans.</li>
+            </ul></div></div></div>
+
+            <!-- 62 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">62</div><div class="topic-title-group"><div class="topic-title">🐅 28th NTCA Meeting</div><div class="topic-subtitle">Tiger Conservation Authority at Sundarbans — Min. Bhupender Yadav</div></div><div class="topic-tag">Environment</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> 28th National Tiger Conservation Authority meeting at Sundarbans.</li>
+                <li><strong>Chair:</strong> Environment Minister Bhupender Yadav.</li>
+            </ul></div></div></div>
+
+            <!-- 63 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">63</div><div class="topic-title-group"><div class="topic-title">📜 Viksit Bharat–G RAM G Act, 2025</div><div class="topic-subtitle">Replaces MGNREGA — 125 days guarantee, weekly wages</div></div><div class="topic-tag">Policy</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Legislation:</strong> Replaces MGNREGA.</li>
+                <li><strong>Key Changes:</strong> Guaranteed employment increased to 125 days (from 100). Wages paid weekly. Focus on 4 verticals including water security.</li>
+            </ul></div></div></div>
+
+            <!-- 64 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">64</div><div class="topic-title-group"><div class="topic-title">🏘️ PESA Mahotsav</div><div class="topic-subtitle">PESA Act 1996 — Panchayati Raj to 5th Schedule areas</div></div><div class="topic-tag">Governance</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> Celebrated in Visakhapatnam.</li>
+                <li><strong>Law:</strong> PESA Act 1996 extends Panchayati Raj to 5th Schedule areas, empowering Gram Sabhas.</li>
+            </ul></div></div></div>
+
+            <!-- 65 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">65</div><div class="topic-title-group"><div class="topic-title">🏛️ Good Governance Day</div><div class="topic-subtitle">Dec 25 — Vajpayee's birth anniversary — AI Recruitment &amp; e-HRMS 2.0</div></div><div class="topic-tag">Governance</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Date:</strong> December 25 (Atal Bihari Vajpayee's birth anniversary).</li>
+                <li><strong>Launches:</strong> 5 digital reforms including AI Recruitment Tool and e-HRMS 2.0.</li>
+            </ul></div></div></div>
+
+            <!-- 66 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">66</div><div class="topic-title-group"><div class="topic-title">📖 Constitution in Santhali</div><div class="topic-subtitle">President released Constitution in Ol Chiki script</div></div><div class="topic-tag">Culture</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Release:</strong> President released the Constitution of India in Santhali language (Ol Chiki script).</li>
+            </ul></div></div></div>
+
+            <!-- 67 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">67</div><div class="topic-title-group"><div class="topic-title">💎 Kimberley Process Chair</div><div class="topic-subtitle">India as KP Chairperson 2026 — conflict diamonds prevention</div></div><div class="topic-tag">Global</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Role:</strong> India selected as Chairperson of Kimberley Process for 2026.</li>
+                <li><strong>Mandate:</strong> Prevent trade in "conflict diamonds".</li>
+            </ul></div></div></div>
+
+            <!-- 68 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">68</div><div class="topic-title-group"><div class="topic-title">📱 Digital Reforms</div><div class="topic-subtitle">Good Governance Day initiatives — transparency &amp; efficiency</div></div><div class="topic-tag">Digital</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Context:</strong> Detailed under Good Governance Day (Item 65), focusing on transparency and digital governance reforms.</li>
+            </ul></div></div></div>
+
+            <!-- 69 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">69</div><div class="topic-title-group"><div class="topic-title">🏥 TB Mukt Bharat</div><div class="topic-subtitle">Elimination target by 2027 — review in MP &amp; Chhattisgarh</div></div><div class="topic-tag">Health</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Target:</strong> Elimination of TB by 2027.</li>
+                <li><strong>Action:</strong> Health Minister reviewed status in MP and Chhattisgarh.</li>
+            </ul></div></div></div>
+
+            <!-- 70 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">70</div><div class="topic-title-group"><div class="topic-title">🧲 REPM Ecosystem</div><div class="topic-subtitle">₹7,280 crore for Rare Earth Magnets — reduce China reliance</div></div><div class="topic-tag">Industry</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Scheme:</strong> ₹7,280 crore approved for Sintered Rare Earth Permanent Magnets.</li>
+                <li><strong>Goal:</strong> 6,000 MTPA capacity to reduce reliance on China for EV/Defence magnets.</li>
+            </ul></div></div></div>
+
+            <!-- 71 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">71</div><div class="topic-title-group"><div class="topic-title">💣 IS 19445:2025 (Bomb Disposal)</div><div class="topic-subtitle">BIS standard for Bomb Disposal Systems</div></div><div class="topic-tag">Defence</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Standard:</strong> BIS released Indian Standard for Bomb Disposal Systems (Evaluation &amp; Requirements).</li>
+            </ul></div></div></div>
+
+            <!-- 72 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">72</div><div class="topic-title-group"><div class="topic-title">♟️ FIDE World Rapid Chess 2025</div><div class="topic-subtitle">Arjun Erigaisi wins Bronze medal</div></div><div class="topic-tag">Sports</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Winner:</strong> Arjun Erigaisi won the Bronze medal.</li>
+            </ul></div></div></div>
+
+            <!-- 73 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">73</div><div class="topic-title-group"><div class="topic-title">🤖 BharatGen</div><div class="topic-subtitle">India's first sovereign multilingual AI LLM — ₹1,293 crore</div></div><div class="topic-tag">Technology</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Tech:</strong> India's first sovereign, multilingual AI Large Language Model (LLM).</li>
+                <li><strong>Funding:</strong> ₹1,293 crore government support.</li>
+            </ul></div></div></div>
+
+            <!-- 74 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">74</div><div class="topic-title-group"><div class="topic-title">🤖 AI Impact Summit — Additional Detail</div><div class="topic-subtitle">"Democratising AI, Bridging the AI Divide"</div></div><div class="topic-tag">Technology</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Theme:</strong> "Democratising AI, Bridging the AI Divide".</li>
+                <li><strong>Context:</strong> Ensuring AI makes horizontal impact across sectors.</li>
+            </ul></div></div></div>
+
+            <!-- 75 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">75</div><div class="topic-title-group"><div class="topic-title">🧬 BioTechnology (BRIC)</div><div class="topic-subtitle">Biotechnology Research &amp; Innovation Council — India 12th globally</div></div><div class="topic-tag">Science</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Event:</strong> Inauguration of BRIC Secretariat.</li>
+                <li><strong>Rank:</strong> India is 12th globally in bio-manufacturing.</li>
+            </ul></div></div></div>
+
+            <!-- 76 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">76</div><div class="topic-title-group"><div class="topic-title">✍️ PM-YUVA 3.0 Results</div><div class="topic-subtitle">43 young authors under 30 in 22 languages — NBT mentors</div></div><div class="topic-tag">Youth</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>Selection:</strong> 43 young authors (under 30) selected in 22 languages + English.</li>
+                <li><strong>Mentor:</strong> National Book Trust (NBT).</li>
+            </ul></div></div></div>
+
+            <!-- 77 -->
+            <div class="topic-card"><div class="topic-header" onclick="toggleCard(this)"><div class="topic-num">77</div><div class="topic-title-group"><div class="topic-title">🌉 Mega Infrastructure Projects</div><div class="topic-subtitle">USBRL, Chenab Bridge (world's highest), New Pamban Bridge</div></div><div class="topic-tag">Infra</div><div class="topic-chevron"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="topic-content"><div class="topic-content-inner"><ul>
+                <li><strong>USBRL:</strong> Udhampur-Srinagar-Baramula Rail Link (272 km).</li>
+                <li><strong>Chenab Bridge:</strong> World's highest railway arch bridge (359m high).</li>
+                <li><strong>New Pamban Bridge:</strong> India's first vertical-lift sea bridge (Tamil Nadu).</li>
+            </ul></div></div></div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Built for serious aspirants with <span style="color:#EF4444">❤︎</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
