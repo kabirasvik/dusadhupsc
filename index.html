@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Affairs for UPSC</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">DU</div>
+                <div class="logo-text">Dusadh <span>UPSC</span></div>
+            </a>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme"></button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-badge">📚 Exam-Oriented Preparation</div>
+        <h1>Current Affairs<br>for <span>UPSC</span></h1>
+        <p class="hero-desc">Structured notes · Monthly updates · Concept clarity. Built for serious aspirants who value depth over noise.</p>
+        <div class="hero-exams">
+            <span class="exam-pill">UPSC CSE</span>
+            <span class="exam-pill">CAPF</span>
+            <span class="exam-pill">CDS</span>
+            <span class="exam-pill">EPFO</span>
+        </div>
+    </section>
+
+    <div class="divider"><div class="divider-inner"><div class="divider-line"></div><span class="divider-text">Resources</span><div class="divider-line"></div></div></div>
+
+    <section class="cards-section">
+        <div class="cards-grid">
+
+            <!-- ==================== PIB NOTES CARD ==================== -->
+            <div class="card">
+                <div class="card-icon">📋</div>
+                <div class="card-body">
+                    <div class="card-header">
+                        <div class="card-title">PIB Notes</div>
+                        <span class="card-status live">Available</span>
+                    </div>
+                    <p class="card-desc">Monthly PIB compilations with complete fact coverage for Prelims + Mains. Every scheme, policy, exercise &amp; appointment.</p>
+                    <div class="card-meta">
+                        <div class="card-meta-item"><div class="card-meta-dot"></div>Prelims + Mains</div>
+                        <div class="card-meta-item"><div class="card-meta-dot"></div>Topic-wise</div>
+                        <div class="card-meta-item"><div class="card-meta-dot"></div>Searchable</div>
+                    </div>
+
+                    <!--
+                    =============================================
+                    MONTH CALENDAR
+                    When adding a new month:
+                    1. Change 'disabled' span → <a> tag with class 'active'
+                    2. Change old 'active' → class 'done'
+                    3. Update href to your file name
+                    =============================================
+                    -->
+                    <div class="month-cal">
+                        <div class="month-cal-label">📅 Select Month</div>
+                        <div class="year-selector">
+                            <button class="year-btn" onclick="switchYear('2025')">2025</button>
+                            <button class="year-btn active" onclick="switchYear('2026')">2026</button>
+                        </div>
+
+                        <div class="year-panel" id="year-2025">
+                            <span class="m-btn disabled"><span class="mn">Jan</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Feb</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Mar</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Apr</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">May</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Jun</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Jul</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Aug</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Sep</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Oct</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Nov</span><span class="ms">Soon</span></span>
+                            <a href="december.html" class="m-btn active"><span class="mn">Dec</span><span class="ms">Active</span></a>
+                            </div>
+
+                        <div class="year-panel visible" id="year-2026">
+                            <a href="january.html" class="m-btn active"><span class="mn">Jan</span><span class="ms">Active</span></a>
+                            <span class="m-btn disabled"><span class="mn">Feb</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Mar</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Apr</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">May</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Jun</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Jul</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Aug</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Sep</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Oct</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Nov</span><span class="ms">Soon</span></span>
+                            <span class="m-btn disabled"><span class="mn">Dec</span><span class="ms">Soon</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></div>
+            </div>
+
+            <!-- ==================== MONTHLY CA CARD ==================== -->
+            <div class="card disabled">
+                <div class="card-icon">📰</div>
+                <div class="card-body">
+                    <div class="card-header">
+                        <div class="card-title">Monthly Current Affairs</div>
+                        <span class="card-status soon">Coming Soon</span>
+                    </div>
+                    <p class="card-desc">All-source monthly CA — PIB, The Hindu, Indian Express &amp; more. One place, zero gaps.</p>
+                    <div class="card-meta">
+                        <div class="card-meta-item"><div class="card-meta-dot"></div>All Sources</div>
+                        <div class="card-meta-item"><div class="card-meta-dot"></div>Consolidated</div>
+                    </div>
+                </div>
+                <div class="card-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></div>
+            </div>
+
+            <!-- ==================== STUDY MATERIALS CARD ==================== -->
+            <div class="card disabled">
+                <div class="card-icon">📖</div>
+                <div class="card-body">
+                    <div class="card-header">
+                        <div class="card-title">Study Materials</div>
+                        <span class="card-status soon">Coming Soon</span>
+                    </div>
+                    <p class="card-desc">Polity, Economy, Environment &amp; Static notes. Concise and syllabus-focused.</p>
+                    <div class="card-meta">
+                        <div class="card-meta-item"><div class="card-meta-dot"></div>Polity</div>
+                        <div class="card-meta-item"><div class="card-meta-dot"></div>Economy</div>
+                        <div class="card-meta-item"><div class="card-meta-dot"></div>Environment</div>
+                    </div>
+                </div>
+                <div class="card-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="divider"><div class="divider-inner"><div class="divider-line"></div><span class="divider-text">Why This Platform</span><div class="divider-line"></div></div></div>
+
+    <section class="features" style="padding-top: 28px;">
+        <div class="features-grid">
+            <div class="feat"><div class="feat-icon">🎯</div><div><div class="feat-title">Exam Focused</div><p class="feat-desc">Every fact mapped to Prelims &amp; Mains</p></div></div>
+            <div class="feat"><div class="feat-icon">🔍</div><div><div class="feat-title">Searchable</div><p class="feat-desc">Find any topic instantly</p></div></div>
+            <div class="feat"><div class="feat-icon">🌙</div><div><div class="feat-title">Dark Mode</div><p class="feat-desc">Comfortable late-night reading</p></div></div>
+            <div class="feat"><div class="feat-icon">📱</div><div><div class="feat-title">Mobile First</div><p class="feat-desc">Optimized for phone reading</p></div></div>
+            <div class="feat"><div class="feat-icon">🚫</div><div><div class="feat-title">No Distractions</div><p class="feat-desc">No ads, no pop-ups, no sign-ups</p></div></div>
+            <div class="feat"><div class="feat-icon">♻️</div><div><div class="feat-title">Always Updated</div><p class="feat-desc">New months added regularly</p></div></div>
+        </div>
+    </section>
+
+        <footer class="footer">
+        <p>Built for serious aspirants with <span style="color:#EF4444">❤︎</span></p>
+    </footer>
+
+    <script src="js/script.js"></script>>
+
+</body>
+</html>
